@@ -13,3 +13,7 @@ func LogWarn(message string) {
 func LogError(message string) {
 	log.Println("ERROR - ",message)
 }
+
+func LogDebug(message string) {
+	log.Println("DEBUG - ",message)
+}
